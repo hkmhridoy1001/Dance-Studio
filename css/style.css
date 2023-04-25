@@ -1,0 +1,623 @@
+/* Google fonts  */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+/* font-family: 'Nunito', sans-serif; */
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Montserrat', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 25px 0px;
+    background-image: url(../Images/nav-bg.png);
+    background-size: cover;
+    width: 100%;
+    z-index: 9999;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 16px;
+    font-weight: 700;
+    color: #716c53;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px 22px;
+}
+
+.logo_img {
+    width: 150px;
+}
+
+
+/* Banner section Start  */
+#Banner {
+    padding-top: 140px;
+    padding-bottom: 150px;
+    background-image: url(../Images/Banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.banner_text {
+    margin-top: 36px;
+}
+
+.banner_text h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 85px;
+    color: #716c53;
+    text-transform: uppercase;
+}
+
+.banner_dis p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #716c53;
+    margin-bottom: 40px;
+}
+
+.button_banner a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 8px 85px;
+    text-decoration: none;
+    background-color: #716c53;
+    color: #ffffff;
+
+}
+
+/* Banner section End  */
+
+/* Team section Start  */
+#team_member {
+    background-image: url(../Images/Team_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0px;
+}
+
+.container_fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/* .container_fluid_row{
+    margin-right: 0px;
+} */
+.container_fluid_row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0px;
+    margin-left: -15px;
+}
+
+.team_mem_text h1 {
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: #716c53;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.team_mem_text p {
+    font-family: 'Montserrat', sans-serif;
+    color: #716c53;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 0px 400px;
+}
+
+.hero1 {
+    text-align: center;
+}
+
+.hero1 img {
+    margin-bottom: 15px;
+    width: 200px;
+}
+
+.hero1 h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 23px;
+    color: #716c53;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.hero1 p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #716c53;
+    text-align: center;
+}
+
+/* background in team part 2  */
+.team_img {
+    background-image: url(../Images/team_bg2.png);
+    background-position: center;
+    /* background-repeat: revert; */
+    background-size: cover;
+    padding: 50px 0px;
+}
+
+
+/* Team section End  */
+
+/* Let's Dance Section Start */
+
+#letsdance {
+    padding: 90px 0px;
+    background-image: url(../Images/letDancebg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.lets_dance_img img {
+    width: 400px;
+}
+
+.rt_txt {
+    margin-top: 50px;
+}
+
+.rt_heading_txt h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    color: #716c53;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.rt_dis_txt p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    color: #716c53;
+    padding-right: 88px;
+    margin-bottom: 35px;
+}
+
+.button_2 a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 8px 85px;
+    text-decoration: none;
+    background-color: #716c53;
+    color: #ffffff;
+
+}
+
+/* Let's Dance Section End */
+
+/* Trial Class section Start  */
+#trial_cls {
+    padding: 150px 0px;
+    background-image: url("../Images/let'sdancebg2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.trial_cls_img {
+    text-align: center;
+}
+
+.trial_txt {
+    margin-top: 70px;
+}
+
+.trial_heading_txt h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    color: #716c53;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.tral_dis_txt p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    color: #716c53;
+    padding-right: 88px;
+    margin-bottom: 35px;
+}
+
+.button_3 a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 8px 85px;
+    text-decoration: none;
+    background-color: #716c53;
+    color: #ffffff;
+
+}
+
+.trial_cls_img img {
+    width: 400px;
+}
+
+/* Trial Class section End  */
+
+/* Our Stattic Section Start  */
+#static_sec {
+    background-image: url(../Images/Team_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 70px;
+}
+
+.static_heading {
+    margin-top: 100px;
+}
+
+
+.static_heading h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: #716c53;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.static_heading p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #716c53;
+    padding: 0px 380px;
+    margin-bottom: 70px;
+}
+
+.combine {
+    background-image: url(../Images/whiteShape4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.member_pt {
+    border-right: dashed #716c53;
+    margin: 70px 0px 140px 0px;
+    border-width: 4px;
+}
+
+.class_pt {
+    border-right: dashed #716c53;
+    margin: 70px 0px 140px 0px;
+    border-width: 4px;
+}
+
+.country_pt {
+    margin: 70px 0px 140px 0px;
+    border-width: 4px;
+}
+
+.member_pt h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    color: #716c53;
+}
+
+.member_pt h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #716c53;
+    text-transform: uppercase;
+}
+
+.class_pt h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    color: #716c53;
+}
+
+.class_pt h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #716c53;
+    text-transform: uppercase;
+}
+
+.country_pt h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    color: #716c53;
+}
+
+.country_pt h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #716c53;
+    text-transform: uppercase;
+}
+
+/* Our Stattic Section End  */
+
+/* class level start  */
+#class_level {
+    padding-bottom: 50px;
+}
+
+.class_heading_txt h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: #716c53;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    margin-top: 80px;
+}
+
+.basic_part h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #716c53;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.card_img {
+    background-image: url(../Images/class_level_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+    margin: 30px;
+}
+
+.card_img img {}
+
+.bottom_card_text h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #716c53;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.bottom_card_text p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #716c53;
+    margin-bottom: 25px;
+    margin: 0px 50px 25px 50px;
+}
+
+/* class level End */
+
+/* banner section start  */
+#banner {
+    background-image: url(../Images/Middle_banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 280px 0px;
+    position: relative;
+
+}
+
+#banner::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(#b09d3c, #b09d3c);
+    opacity: 0.7;
+    top: 0;
+}
+
+.top_shape {
+    position: absolute;
+    top: 0;
+
+}
+
+.bottom_shape {
+    position: absolute;
+    bottom: 0;
+}
+
+.middle_text p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 0px 300px;
+}
+
+.middle_text h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-top: 24px;
+}
+
+/* banner section End  */
+
+
+/* Call to action section Start  */
+
+#call_to_action {
+    padding: 150px 0px;
+    background-image: url(../Images/Team_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading_call_to h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: #000000;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.heading_call_to p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    padding: 0px 303px;
+    margin: 35px 0px 35px 0px;
+}
+
+/* Search Bar  */
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+.searchTerm {
+    width: 100%;
+    border: 0px;
+    border-right: none;
+    padding: 20px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+}
+
+.searchTerm:focus {
+    color: #00B4CC;
+}
+
+.searchButton {
+
+    width: 170px;
+    height: 40px;
+    border: none;
+    background: #222222;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.searchButton p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin: 0 auto;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap {
+    width: 35%;
+    /* position: absolute; */
+    left: 50%;
+    transform: translate(-50%, );
+    margin: 0 auto;
+}
+
+
+.bottom_text p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #3a3a3a;
+    padding: 0px 303px;
+    margin: 15px 0px 35px 0px;
+}
+
+/* Call to action section End  */
+
+/* Footer Section Start  */
+
+#footer{
+    padding: 150px 0px;
+    background-color: #222222;
+}
+
+.footer_left_txt p {
+    color: #ffffff;
+    padding-right: 170px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.footer_social_icon a i {
+    color: #000;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 18px;
+}
+
+.footer_img a img {
+    width: 175px;
+}
+
+/* footer menu sections   */
+.menu_heading h3{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.About_menus ul li a{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+
+
+/* Footer Section End  */
+
+
+

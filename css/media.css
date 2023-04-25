@@ -1,0 +1,685 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) {
+
+     /* banner section start  */
+     .banner_text {
+         margin-top: 0px;
+     }
+
+     .banner_text h1 {
+         font-size: 27px;
+     }
+
+     .banner_dis p {
+         font-size: 13px;
+         margin-bottom: 45px;
+         margin-top: 25px;
+     }
+
+     .button_banner a {
+         padding: 3px 15px;
+         font-size: 14px;
+     }
+
+     #Banner {
+         padding-top: 110px;
+         padding-bottom: 35px;
+         background-position: left;
+     }
+
+     /* banner section end  */
+
+     /* team member section start  */
+
+     #team_member {
+         padding: 44px 0px;
+     }
+
+     .team_mem_text h1 {
+         font-size: 24px;
+     }
+
+     .team_mem_text p {
+         font-size: 13px;
+         padding: 0px;
+     }
+
+     .hero1 img {
+         width: 100px;
+     }
+
+     .hero1 h3 {
+         font-size: 16px;
+     }
+
+     .hero1 p {
+         font-size: 15px;
+     }
+
+     .team_img {
+         padding: 0px;
+     }
+
+     /* team member section end  */
+
+     /* let's Dance Section Start  */
+
+     #letsdance {
+         padding: 45px 0px;
+     }
+
+     .lets_dance_img img {
+         width: 200px;
+     }
+
+     .lets_dance_img {
+         text-align: center;
+     }
+
+     .rt_heading_txt h1 {
+         font-size: 30px;
+         margin-bottom: 25px;
+     }
+
+     .rt_dis_txt p {
+         font-size: 16px;
+         padding-right: 0;
+     }
+
+     .button_2 a {
+         font-size: 15px;
+         padding: 7px 40px;
+     }
+
+     /* let's Dance Section end  */
+
+     /* trial class section start  */
+
+     #trial_cls {
+         padding: 30px;
+     }
+
+     .trial_heading_txt h1 {
+         font-size: 28px;
+         text-align: center;
+         margin-bottom: 16px;
+     }
+
+     .tral_dis_txt p {
+         font-size: 12px;
+         padding-right: 0;
+         text-align: center;
+     }
+
+     .button_3 a {
+         font-size: 16px;
+         padding: 8px 25px;
+     }
+
+     .button_3 {
+         text-align: center;
+     }
+
+     .trial_cls_img img {
+         width: 200px;
+         margin-top: 50px;
+         margin-bottom: 50px;
+     }
+
+     /* trial class section end  */
+
+     /* static section start  */
+
+     .static_heading {
+         margin-top: 30px;
+     }
+
+     .static_heading h1 {
+         font-size: 27px;
+         margin-bottom: 13px;
+     }
+
+     .static_heading p {
+         font-size: 13px;
+         padding: 0px;
+         margin-bottom: 0px;
+     }
+
+     .member_pt h1 {
+         font-size: 50px;
+     }
+
+     .member_pt h4 {
+         font-size: 20px;
+     }
+
+     .member_pt {
+         border-right: none;
+         margin: 70px 0px 0px 0px;
+         border-width: 0px;
+     }
+
+     .class_pt h1 {
+         font-size: 50px;
+     }
+
+     .class_pt h4 {
+         font-size: 20px;
+     }
+
+     .class_pt {
+         border-right: none;
+         margin: 35px 0px 0px 0px;
+         border-width: 0px;
+     }
+
+     .country_pt h1 {
+         font-size: 50px;
+     }
+
+     .country_pt h4 {
+         font-size: 20px;
+     }
+
+     .country_pt {
+         border-right: none;
+         margin: 35px 0px 0px 0px;
+         border-width: 0px;
+     }
+
+     .container_fluid_row {
+         margin-right: -15px;
+     }
+
+     .combine {
+         background-repeat: no-repeat;
+         background-size: cover;
+         padding-bottom: 90px;
+     }
+
+     /* static section end  */
+
+     /* class level section start  */
+
+     .class_heading_txt h1 {
+         font-size: 33px;
+         margin-bottom: 50px;
+         margin-top: 40px;
+     }
+
+     .basic_part {
+         margin-bottom: 30px;
+     }
+
+     .middle_text p {
+         font-size: 13px;
+         padding: 0px;
+     }
+
+     .middle_text h3 {
+         font-size: 22px;
+     }
+
+     #banner {
+         padding: 80px 0px;
+     }
+
+     .top_shape {
+         top: -11px;
+     }
+
+     .bottom_shape {
+
+         bottom: -8px;
+     }
+
+     .bottom_card_text p {
+         font-size: 12px;
+     }
+
+
+     /* class level section end  */
+
+     /* Dance for fun section start  */
+
+     .heading_call_to h1 {
+         font-size: 23px;
+         margin-bottom: 0px;
+     }
+
+     .heading_call_to p {
+         font-size: 13px;
+         padding: 0px;
+         margin: 20px 0px 35px 0px;
+     }
+
+     .wrap {
+         width: 85%;
+     }
+
+     .bottom_text p {
+         font-size: 14px;
+         padding: 0px;
+         margin: 15px 0px 0px 0px;
+     }
+
+     #call_to_action {
+         padding: 50px 0px;
+     }
+
+     /* Dance for fun section end  */
+
+     /* Footer SEction start  */
+
+     .footer_left_txt p {
+         padding-right: 0px;
+         font-size: 12px;
+     }
+
+     #footer {
+         padding: 50px 0px;
+     }
+
+     .footer_social_icon {
+         margin-bottom: 30px;
+     }
+
+     .menu_heading h3 {
+         text-align: center;
+         font-size: 20px;
+     }
+
+     .About_menus ul li a {
+         font-size: 14px;
+     }
+
+     /* Footer SEction End  */
+
+ }
+
+ /*  Small devices (landscape phones, 576px and up) */
+ @media (min-width: 576px) and (max-width: 767.98px) {
+
+     .banner_text h1 {
+         font-size: 30px;
+     }
+
+     .banner_dis p {
+         font-size: 13px;
+     }
+
+     .button_banner a {
+         font-size: 12px;
+         padding: 8px 35px;
+     }
+
+     .marge {
+         margin-left: 320px;
+     }
+
+     #Banner {
+         background-position: unset;
+     }
+
+     /* out team section start  */
+
+     .team_mem_text h1 {
+         font-size: 26px;
+         margin-bottom: 15px;
+     }
+
+     .team_mem_text p {
+         font-size: 17px;
+         padding: 0px;
+         margin: 0px 18px;
+     }
+
+     .lets_dance_img img {
+         width: 300px;
+     }
+
+     .lets_dance_img {
+         text-align: center;
+     }
+
+     .rt_heading_txt h1 {
+         font-size: 40px;
+         margin-bottom: 15px;
+     }
+
+     /* out team section end  */
+
+     /* Trial class section start  */
+
+     #trial_cls {
+         padding: 50px 0px;
+     }
+
+     .trial_txt {
+         margin-top: 0px;
+     }
+
+     .trial_heading_txt h1 {
+         font-size: 40px;
+         ;
+         margin-bottom: 10px;
+     }
+
+     .tral_dis_txt p {
+         font-size: 17px;
+         margin-bottom: 35px;
+     }
+
+     .button_3 a {
+         font-size: 16px;
+         padding: 8px 35px;
+     }
+
+     .trial_cls_img img {
+         width: 300px;
+         margin-top: 30px;
+     }
+
+
+     /* Trial class section End  */
+
+     /* out static section start  */
+
+     .static_heading h1 {
+         font-size: 30px;
+     }
+
+     .static_heading p {
+         font-size: 14px;
+         padding: 0px 100px;
+         margin-bottom: 0px;
+     }
+
+     .static_heading {
+         margin-top: 50px;
+     }
+
+     .member_pt {
+         border-right: none;
+         margin: 70px 0px 40px 0px;
+         border-width: 0px;
+     }
+
+     .member_pt h1 {
+         font-size: 50px;
+     }
+
+     .member_pt h4 {
+         font-size: 20px;
+     }
+
+     .class_pt {
+         border-right: none;
+         margin: 0px 0px 40px 0px;
+         border-width: 0px;
+     }
+
+     .class_pt h1 {
+         font-size: 50px;
+     }
+
+     .class_pt h4 {
+         font-size: 20px;
+     }
+
+     .country_pt {
+         border-right: none;
+         margin: 0px 0px 70px 0px;
+         border-width: 0px;
+     }
+
+     .country_pt h1 {
+         font-size: 50px;
+     }
+
+     .country_pt h4 {
+         font-size: 20px;
+     }
+
+     /* out static section end  */
+
+     /* class level section start  */
+
+     .class_heading_txt h1 {
+         font-size: 32px;
+         margin-top: 40px;
+     }
+
+     .basic_part h3 {
+         font-size: 22px;
+     }
+
+     .bottom_card_text {
+         margin-bottom: 30px;
+     }
+
+     .button_3 a {
+         font-size: 16px;
+         padding: 5px 31px;
+     }
+
+     /* second banner section start  */
+
+     .top_shape {
+         top: -8px;
+     }
+
+     .middle_text p {
+         font-size: 20px;
+         padding: 0px;
+     }
+
+     .bottom_shape {
+         bottom: -4px;
+     }
+
+     /* second banner section End  */
+
+     /* Subscrib section start  */
+
+     .heading_call_to p {
+         font-size: 18px;
+         padding: 0px;
+         margin: 35px 0px 35px 0px;
+     }
+
+     .heading_call_to h1 {
+         font-size: 33px;
+         margin-bottom: 0px;
+     }
+
+     .wrap {
+         width: 65%;
+     }
+
+     .bottom_text p {
+         padding: 0px;
+     }
+
+     #call_to_action {
+         padding: 100px 0px;
+     }
+
+     /* Subscrib section End */
+
+     /* footer section start  */
+
+     #footer {
+         padding: 80px 0px;
+     }
+
+
+     .footer_left_txt p {
+         padding-right: 0px;
+         font-size: 15px;
+     }
+
+     .footer_left {
+         margin-bottom: 30px;
+         text-align: center;
+     }
+
+     .menu_heading {
+         text-align: center;
+     }
+
+     .About_menus {
+         text-align: center;
+     }
+
+     .menu_heading h3 {
+         font-size: 20px;
+     }
+
+     .About_menus ul li a {
+         font-size: 15px;
+     }
+
+     /* footer section End  */
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+ @media (min-width: 768px) and (max-width: 991.98px) {
+
+     #Banner {
+         background-position: left;
+     }
+
+     .banner_dis p {
+         font-size: 20px;
+     }
+
+     .team_mem_text p {
+         padding: 0px 150px;
+     }
+
+     .rt_txt {
+         margin-top: 0px;
+     }
+
+     .rt_dis_txt p {
+         font-size: 18px;
+         padding-right: 0px;
+     }
+
+     #trial_cls {
+         padding: 50px 0px;
+     }
+
+     .trial_txt {
+         margin-top: 0px;
+     }
+
+     .static_heading p {
+         padding: 0px 100px;
+     }
+
+     .bottom_card_text p {
+         font-size: 15px;
+         margin: 0px;
+         margin-bottom: 20px;
+     }
+
+     .button_3 a {
+         font-size: 16px;
+         padding: 8px 20px;
+     }
+
+     .top_shape {
+         top: -5px;
+     }
+
+     .middle_text p {
+         padding: 0px 100px;
+     }
+
+     .heading_call_to p {
+         padding: 0px 60px;
+     }
+
+     .bottom_text p {
+         padding: 0px;
+     }
+
+     .footer_left_txt p {
+         padding-right: 34px;
+     }
+
+     .menu_heading h3 {
+         font-size: 25px;
+     }
+
+     .About_menus ul li a {
+         font-size: 13px;
+     }
+
+     .menu_heading {
+         text-align: center;
+     }
+
+     .About_menus {
+         text-align: center;
+     }
+
+ }
+
+ /* Large devices (desktops, 992px and up) */
+ @media (min-width: 992px) and (max-width: 1199.98px) {
+
+     #Banner {
+         background-position: unset;
+     }
+
+     .banner_dis p {
+         font-size: 20px;
+     }
+
+     .team_mem_text p {
+         padding: 0px 200px;
+     }
+
+     .static_heading p {
+         padding: 0px 150px;
+     }
+
+     .bottom_card_text p {
+         font-size: 13px;
+     }
+
+     .button_3 a {
+         padding: 8px 50px;
+     }
+
+     .middle_text p {
+         font-size: 24px;
+         padding: 0px 100px;
+     }
+
+     .heading_call_to p {
+         font-size: 18px;
+         padding: 0px 200px;
+     }
+
+ }
+
+ /* Extra large devices (large desktops, 1200px and up) */
+ @media (min-width: 1200px) {
+     .team_mem_text p {
+         padding: 0px 314px;
+     }
+
+     .static_heading p {
+         padding: 0px 341px;
+     }
+
+     .middle_text p {
+         font-size: 22px;
+         padding: 0px 200px;
+     }
+
+ }
